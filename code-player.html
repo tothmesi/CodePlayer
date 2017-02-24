@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>CodePlayer</title>
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css" type="text/css" />
+    <link rel="stylesheet" href="code-player.css" type="text/css" />
+
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="code-player.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1>CodePlayer</h1>
+        <div id="menu-bar">
+            <div class="menu-item" id="html-btn">HTML</div>
+            <div class="menu-item" id="css-btn">CSS</div>
+            <div class="menu-item" id="js-btn">JavaScript</div>
+            <div class="menu-item" id="output-btn">Output</div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="html-text" class="section">
+            <p>HTML code</p>
+            <textarea></textarea>
+    </div>
+
+    <div id="css-text" class="section">
+        <p>CSS code</p>
+        <textarea></textarea>
+    </div>
+
+    <div id="js-text" class="section">
+        <p>JavaScript code</p>
+        <textarea></textarea>
+    </div>
+
+    <div id="output-text" class="section">
+        <p>Layout</p>
+        <iframe target="_self"></iframe>
+    </div>
+</div>
+</body>
+</html>
